@@ -4,7 +4,7 @@ let app = express();
 
 app.get("/bo", (req, res) => {
     // res.send("Hello Express");
-    res.sendFile(__dirname + "views/index.html");
+    res.sendFile("views/index.html");
 });
 
 // const port = 3000;
